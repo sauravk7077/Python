@@ -4,6 +4,10 @@
 
 # Use the requests library to simplify making a REST API call from Python 
 import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 # We will need the json library to read the data passed back 
 # by the web service
@@ -11,7 +15,7 @@ import json
 
 # You need to update the SUBSCRIPTION_KEY to 
 # they key for your Computer Vision Service
-SUBSCRIPTION_KEY = "xxxx"
+SUBSCRIPTION_KEY = os.getenv('SUBID')
 
 # You need to update the vision_service_address to the address of
 # your Computer Vision Service
