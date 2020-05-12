@@ -10,4 +10,4 @@ def print_something():
     print("Hello")
 
 
-print_something()
+print("Hello")
