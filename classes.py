@@ -5,10 +5,12 @@ class LazyPerson():
 
     @property
     def name(self):
+        print("In the getter")
         return self.__name
     
     @name.setter
     def name(self, value):
+        print("In setter")
         #validation here
         self.__name = value
 
