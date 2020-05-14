@@ -43,3 +43,25 @@ people.append({
 })
 
 print(people)
+
+#Tuples - These are immuatable
+#Empty tuple
+tuple1 = () # or tuple()
+objects = ('car','pen','modem','monitor')
+
+print(objects)
+
+#Sets - Unordered collection with property to remove duplicates
+
+#Empty Sets
+empty_set = set()
+
+set1 = {'card','cloth','paper','tissue'}
+set2 = {'money','card','bag','hammer'}
+print(set1)
+
+print(set1.intersection(set2))
+
+print(set1.union(set2))
+
+print(set1.difference(set2))
