@@ -39,3 +39,8 @@ if packs == 5 or packs == 7:
     print("This is very odd")
 elif packs == 6 and tick == 1:
     print("This is great")
+
+# use of not
+
+if not (5 == 6): # or not 5 == 6
+    print(True)

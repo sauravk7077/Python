@@ -44,6 +44,12 @@ people.append({
 
 print(people)
 
+student = {"name": "Satay", "age": 28, "courses": ["Maths","History"]}
+print(student.items())
+print(student.keys())
+for k, v in student.items():
+    print(v)
+
 #Tuples - These are immuatable
 #Empty tuple
 tuple1 = () # or tuple()
